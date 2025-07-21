@@ -36,13 +36,6 @@ let getUser = () => {
   ];
 };
 
-// Query to insert multiple users into the database
-// let q = `INSERT INTO user (id, username, email, password) VALUES ?;`;
-// Generate an array of user data
-//  let data = [];
-//  for (let i = 1; i <= 100; i++) {
-//    data.push(getUser());
-//  }
 
 //  home page route
 app.get("/", (req, res) => {
@@ -65,6 +58,7 @@ app.get("/user", (req, res) => {
     connection.query(q, (err, users) => {
       if (err) throw err;
       res.render("user.ejs", { users });
+    
     });
   } catch (err) {
     console.error("Error executing query:", err);
@@ -237,6 +231,23 @@ app.delete("/user/:id", (req, res) => {
 app.listen("8080", () => {
   console.log("Server is running on port 8080");
 });
+
+
+
+//Query to insert multiple users into the database
+// let q = `INSERT INTO user (id, username, email, password) VALUES ?;`;
+/// Generate an array of user data
+//  let data = [];
+//  for (let i = 1; i <= 100; i++) {
+//    data.push(getUser());
+//  }
+
+
+
+
+// console.log(data)
+
+
 
 // try {
 //   connection.query(q, [data], (err, results) => {

@@ -11,8 +11,30 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-
+.back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 14px;
+    background-color: #0d0e0e;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 15px;
+    
+}
+.back:hover {
+    background-color: #1c1e21;
+    text-decoration: underline;
+}
 table {
+    margin-top: 45px;
     width: 80%;
     border-collapse: collapse;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
