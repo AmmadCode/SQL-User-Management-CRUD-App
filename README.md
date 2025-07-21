@@ -1,1 +1,0 @@
-# SQL-User-Management-CRUD-App
