@@ -27,7 +27,8 @@ To run this project on your local machine, follow these steps:
 
 **1. Clone the Repository**
 ```bash
-git clone <your-repository-url>
+git clone
+https://github.com/AmmadCode/SQL-User-Management-CRUD-App
 cd <repository-folder>
 ```
 
