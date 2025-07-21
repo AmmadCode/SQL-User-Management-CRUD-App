@@ -1,0 +1,11 @@
+SHOW TABLES;
+
+CREATE TABLE IF NOT EXISTS user (
+    id VARCHAR(36) PRIMARY KEY,
+    username VARCHAR(50) UNIQUE,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(50) NOT NULL
+
+);
+
+

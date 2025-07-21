@@ -1,0 +1,115 @@
+/* public/delete.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.delete-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.delete-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+.delete-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #d93025; /* Red for warning */
+    margin-bottom: 15px;
+}
+
+.delete-subtitle {
+    font-size: 16px;
+    color: #606770;
+    margin-bottom: 10px;
+}
+
+.delete-warning {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-group input:focus {
+    border-color: #d93025;
+    box-shadow: 0 0 0 2px rgba(217, 48, 37, 0.2);
+    outline: none;
+}
+
+.delete-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #d93025;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 15px;
+}
+
+.delete-btn:hover {
+    background-color: #c2251b;
+}
+
+.cancel-link {
+    display: inline-block;
+    color: #606770;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cancel-link:hover {
+    text-decoration: underline;
+}
+
+.error-banner {
+    background-color: #fbe3e3;
+    color: #c00;
+    border: 1px solid #fbc7c7;
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
