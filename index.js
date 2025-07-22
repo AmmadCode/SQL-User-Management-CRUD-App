@@ -60,6 +60,7 @@ app.get("/user", (req, res) => {
       res.render("user.ejs", { users });
     
     });
+
   } catch (err) {
     console.error("Error executing query:", err);
     res.send("Error executing query");
@@ -236,11 +237,11 @@ app.listen("8080", () => {
 
 //Query to insert multiple users into the database
 // let q = `INSERT INTO user (id, username, email, password) VALUES ?;`;
-/// Generate an array of user data
-//  let data = [];
-//  for (let i = 1; i <= 100; i++) {
-//    data.push(getUser());
-//  }
+// Generate an array of user data
+  // let data = [];
+  // for (let i = 1; i <= 50; i++) {
+  //   data.push(getUser());
+  // }
 
 
 
